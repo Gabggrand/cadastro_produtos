@@ -86,7 +86,6 @@ class _CadastrarProdutoPageState extends State<CadastrarProdutoPage> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              // ETAPA
               Row(
                 children: const [
                   CircleAvatar(
@@ -107,7 +106,6 @@ class _CadastrarProdutoPageState extends State<CadastrarProdutoPage> {
 
               const SizedBox(height: 24),
 
-              // INFORMAÇÕES BÁSICAS
               const SectionTitle(title: "Informações Básicas"),
               const SizedBox(height: 12),
 
@@ -139,7 +137,6 @@ class _CadastrarProdutoPageState extends State<CadastrarProdutoPage> {
 
               const SizedBox(height: 24),
 
-              // PREÇO E ESTOQUE
               const SectionTitle(title: "Preço e Estoque"),
               const SizedBox(height: 12),
 
@@ -176,7 +173,6 @@ class _CadastrarProdutoPageState extends State<CadastrarProdutoPage> {
 
               const SizedBox(height: 32),
 
-              // BOTÃO SALVAR
               SizedBox(
                 width: double.infinity,
                 height: 48,
@@ -197,7 +193,6 @@ class _CadastrarProdutoPageState extends State<CadastrarProdutoPage> {
 
               const SizedBox(height: 12),
 
-              // CANCELAR
               Center(
                 child: TextButton(
                   onPressed: () {
